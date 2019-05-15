@@ -1,0 +1,22 @@
+{
+  "name": "ah-poc-sapi-ca-bal",
+  "version": "1.0.0",
+  "description": "(Stub) SAPI PoC (c)urrent (a)ccount (bal)ances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuhlke/ah-poc-sapi-ca-bal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuhlke/ah-poc-sapi-ca-bal/issues"
+  },
+  "homepage": "https://github.com/zuhlke/ah-poc-sapi-ca-bal#readme",
+  "devDependencies": {
+    "json-server": "^0.14.2"
+  }
+}

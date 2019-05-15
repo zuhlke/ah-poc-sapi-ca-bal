@@ -1,0 +1,16 @@
+{
+  "balance": [
+    {
+      "customerId": 1,
+      "accounts": [{ "accountNumber": "1234567890", "balance": "1234.50" }]
+    },
+    {
+      "customerId": 2,
+      "accounts": [{ "accountNumber": "8565857548", "balance": "-12.50" }]
+    },
+    {
+      "customerId": 3,
+      "accounts": [{ "accountNumber": "6484647512", "balance": "9999999999.50" }]
+    }
+  ]
+}
