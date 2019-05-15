@@ -1,0 +1,4 @@
+---
+applications:
+- name: ah-poc-sapi-ca-bal
+  memory: 512M

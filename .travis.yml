@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "8"
+
+before_deploy:
+  - npm install
+
+deploy:
+  provider: cloudfoundry
+  username: $PCF_USERNAME
+  password: $PCF_PASSWORD
+  api: $PCF_API
+  organization: $PCF_ORG
+  space: $PCF_SPACE
+  manifest: manifest.yml # (optional)  Defaults to manifest.yml.
+  app_name: ah-poc-sapi-ca-bal # (optional)
