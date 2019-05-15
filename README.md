@@ -2,6 +2,8 @@
 
 Stub SAPI PoC for current account balances
 
+[![Build Status](https://travis-ci.com/zuhlke/ah-poc-sapi-cal-bal.svg?branch=master)](https://travis-ci.com/zuhlke/ah-poc-sapi-ca-bal)
+
 ## Run locally
 
 `./run-locally`, `npm start` or `node index.js`
