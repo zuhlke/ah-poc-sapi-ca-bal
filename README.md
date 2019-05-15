@@ -13,3 +13,9 @@ Stub SAPI PoC for current account balances
 ## Run tests
 
 There are no tests
+
+## Travis pipeline
+
+- Pipeline file is `.travis.yml`.
+- Travis by default runs `npm ci` and `npm test`. After that we deploy to PCF.
+- Environment variables are injected by travis.
