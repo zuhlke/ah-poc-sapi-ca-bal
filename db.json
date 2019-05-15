@@ -1,16 +1,19 @@
 {
-  "balance": [
+  "customer": [
     {
-      "customerId": 1,
-      "accounts": [{ "accountNumber": "1234567890", "balance": "1234.50" }]
+      "id": "10101010"
     },
     {
-      "customerId": 2,
-      "accounts": [{ "accountNumber": "8565857548", "balance": "-12.50" }]
+      "id": "12345678"
     },
     {
-      "customerId": 3,
-      "accounts": [{ "accountNumber": "6484647512", "balance": "9999999999.50" }]
+      "id": "11223344"
     }
+  ],
+  "balance": [
+    {"customerId": "10101010", "accountNumber": "64746383648", "balance": "34.50" },
+    {"customerId": "12345678", "accountNumber": "96868696860", "balance": "21.50" },
+    {"customerId": "11223344", "accountNumber": "75658565936", "balance": "1000.11" },
+    {"customerId": "11223344", "accountNumber": "54647454745", "balance": "-12.25" }
   ]
 }
