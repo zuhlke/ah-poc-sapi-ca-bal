@@ -1,4 +1,5 @@
 ---
 applications:
 - name: ah-poc-sapi-ca-bal
-  memory: 512M
+  memory: 100M
+  disk_quota: 150M
