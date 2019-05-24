@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 // Add custom routes before JSON Server router
 server.get('/actuator/health', (req, res) => {
-  res.jsonp([{'status':'UP'}])
+    res.jsonp({'status': 'UP'})
 });
 
 server.use(middlewares);
